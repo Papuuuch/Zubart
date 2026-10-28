@@ -9,8 +9,8 @@ func _ready():
 	
 	
 func _physics_process(delta: float) -> void:
+	# Move the ship
 	velocity = direction * speed
-	
 	move_and_slide()
 	
 func _input(event: InputEvent):
